@@ -1,3 +1,9 @@
+import {
+  FETCH_DATA_SUCCESS,
+  FETCH_DATA_FAILURE,
+  FETCH_DATA_REQUEST,
+} from "./../actions/constants"
+
 const initialState = {
   fetching: false,
   data: [],
