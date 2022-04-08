@@ -3,11 +3,17 @@
   height: 300px;
 }
 .chart-info {
-  margin: auto;
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   label {
     font-size: 1.2rem;
     font-weight: bold;
+  }
+  select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.8rem;
   }
 }
