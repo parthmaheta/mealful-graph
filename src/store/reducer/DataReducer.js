@@ -5,7 +5,7 @@ import {
 } from "./../actions/constants"
 
 const initialState = {
-  fetching: false,
+  fetching: true,
   data: [],
   error: null,
 }

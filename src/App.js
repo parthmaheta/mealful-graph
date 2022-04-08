@@ -1,7 +1,14 @@
 import "./App.css"
+import { Graphs } from "./components/graphs"
+import { Header } from "./components/header"
 
 function App() {
-  return <div className="App"></div>
+  return (
+    <>
+      <Header />
+      <Graphs />
+    </>
+  )
 }
 
 export default App
