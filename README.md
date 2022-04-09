@@ -1,3 +1,16 @@
+watch live site https://mealful-schedule.netlify.app/
+
+to run project locally
+
+->first download or clone from this repo
+-> to get dependecies then run
+
+###`npm install`
+
+->to run on your browser
+
+### `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
