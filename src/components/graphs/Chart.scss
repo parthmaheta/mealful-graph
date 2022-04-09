@@ -17,3 +17,22 @@
     padding: 0.8rem;
   }
 }
+
+.container {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  .big-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .red-big-text {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
